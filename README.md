@@ -1,12 +1,26 @@
-# React + Vite
+# React Shop with Redux Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple e-commerce demo built with **React, Vite, React Router, and Redux Toolkit**.  
+It fetches product data from [DummyJSON API](https://dummyjson.com) and allows users to browse products by category, view product details, and manage a shopping cart.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🏠 Home, About, Shop pages with React Router
+- 📂 Sidebar with categories (fetched dynamically from API)
+- 📦 All Products page powered by Redux Toolkit
+- 🛒 Add products to cart
+- ➕➖ Increase / Decrease quantity
+- 💰 Total price calculation
+- 💾 Cart persists in **localStorage**
+- ❌ Remove products or clear the entire cart
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://react.dev/) (with Vite)
+- [React Router](https://reactrouter.com/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [DummyJSON API](https://dummyjson.com)
